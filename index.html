@@ -16,6 +16,7 @@
         .container{
             display: flex;
             justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.292);
             box-shadow: -30px -30px 20px rgba(40, 36, 36, 0.221),
                30px  30px 20px rgba(51, 59, 51, 0.316);
             overflow: hidden; 
@@ -97,7 +98,7 @@
             <label>Contraseña</label>
             <input type="password" id="password">
 
-            <button type="button" onclick="login()">Iniciar Sesión</button>
+            <button id="button" type="button" onclick="login()">Iniciar Sesión</button>
             <p id="mensaje"></p>
         </form>
     </div>

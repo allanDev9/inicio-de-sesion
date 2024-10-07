@@ -11,10 +11,10 @@ let intentosRestantes = 3;
 
             if (intentosRestantes > 0) {
                 if (username === usuario && password === contraseña) {
-                    mensaje.innerHTML = "Acceso exitoso ✅";
+                    mensaje.innerHTML = "Acceso exitoso ✅ Redirigiendo...";
                     setTimeout(() => {
                         window.location.href="home.html"
-                    }, 2000);
+                    }, 3000);
                 } else {
                     intentosRestantes--;
                     if (intentosRestantes > 0) {

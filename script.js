@@ -26,6 +26,7 @@ function login() {
         pass.style.border = "3px solid red";
       }
       setTimeout(() => {
+        
         window.location.href = "home.html";
       }, 3000);
     } else {
